@@ -1,20 +1,32 @@
 ## Results
 
-The Convolutional Neural Network (CNN) model was trained and tested on the MNIST handwritten digit dataset.
+The Convolutional Neural Network (CNN) model was developed to recognize handwritten digits using the MNIST dataset. The model's performance was examined using accuracy and loss graphs, a confusion matrix, and sample handwritten digit images.
 
-### Model Performance
+### Results Analysis
 
-* **Model:** Convolutional Neural Network (CNN)
-* **Dataset:** MNIST Handwritten Digits
-* **Training Samples:** 8,000
-* **Testing Samples:** 2,000
-* **Test Accuracy:** 97.65%
-* **Test Loss:** 0.0622
+* **Model Accuracy:** The accuracy graph shows that training and validation accuracy increase during the training process.
+* **Model Loss:** The loss graph shows that training and validation loss decrease as the model learns.
+* **Confusion Matrix:** The confusion matrix shows that most predictions are concentrated along the diagonal, indicating that the model correctly classifies many handwritten digits.
+* **Sample Digits:** The sample images demonstrate the handwritten digits used to examine the model's recognition results.
 
-### Result Analysis
+### Result Visualizations
 
-The CNN model achieved **97.65% accuracy** on the test dataset, showing that it can recognize handwritten digits effectively.
+#### 1. Confusion Matrix
 
-The accuracy and loss graphs show the model's learning performance during training. The confusion matrix and classification report provide detailed information about the model's predictions for each digit.
+![Confusion Matrix](results/confusion_matrix.png)
 
-Overall, the model successfully recognized handwritten digits with high accuracy and demonstrates the effectiveness of CNN for image classification.
+#### 2. Model Loss
+
+![Model Loss](results/model_loss.png)
+
+#### 3. Model Accuracy
+
+![Model Accuracy](results/model_accuracy.png)
+
+#### 4. Sample Handwritten Digits
+
+![Sample Handwritten Digits](results/sample_handwritten_digits.png)
+
+### Conclusion
+
+This project demonstrates how a Convolutional Neural Network can be used for handwritten digit recognition. The training graphs and confusion matrix help visualize the model's learning process and classification performance.
