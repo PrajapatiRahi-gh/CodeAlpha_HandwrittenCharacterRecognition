@@ -1,0 +1,20 @@
+## Results
+
+The Convolutional Neural Network (CNN) model was trained and tested on the MNIST handwritten digit dataset.
+
+### Model Performance
+
+* **Model:** Convolutional Neural Network (CNN)
+* **Dataset:** MNIST Handwritten Digits
+* **Training Samples:** 8,000
+* **Testing Samples:** 2,000
+* **Test Accuracy:** 97.65%
+* **Test Loss:** 0.0622
+
+### Result Analysis
+
+The CNN model achieved **97.65% accuracy** on the test dataset, showing that it can recognize handwritten digits effectively.
+
+The accuracy and loss graphs show the model's learning performance during training. The confusion matrix and classification report provide detailed information about the model's predictions for each digit.
+
+Overall, the model successfully recognized handwritten digits with high accuracy and demonstrates the effectiveness of CNN for image classification.
